@@ -1,0 +1,86 @@
+body,
+html {
+    margin:0;
+    padding:0;
+	background: #9999FF;
+    color:#000;
+	 	font-family: "Trebuchet MS", Helvetica, sans-serif; 
+		text-align: center;
+    }
+
+#wrap {
+    background: #CCCCFF;
+    margin:0 auto;
+    width:80%;
+	 text-align: left;
+	 border-left: 1px solid #6633CC;
+ 	 border-right: 1px solid #6633CC;
+	 border-bottom: 1px solid #6633CC;	 
+    }
+
+
+#header {
+	background: #FFFFB8;
+	border-bottom: 4px solid #6633CC;
+
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+#navigation{
+float:right;
+margin: 0;
+padding: 0;
+}
+
+#button {
+	width: 12em;
+
+	padding: 0 0 0 0;
+	margin-bottom: 0;
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+
+
+	}
+	#button ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		border: none;
+		}
+		
+	#button li {
+		border-bottom: 1px solid #90bade;
+		margin: 0;
+		}
+
+	#button li a {
+		display: block;
+		padding: 5px 5px 5px 0.5em;
+		background-color: #2175bc;
+		color: #fff;
+		text-decoration: none;
+		width: 100%;
+		}
+
+	html>body #button li a {
+		width: auto;
+		}
+
+	#button li a:hover {
+		background-color: #2586d7;
+		color: #fff;
+		}
+		
+#content  {	
+float: left;
+margin: 10px 10px 10px 10px;
+		}
+		
+		
+#footer {
+    background:#6633CC;
+	 color: White;
+    clear:both;
+	 padding: 5px;
+    }
